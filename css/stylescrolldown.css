@@ -1,0 +1,47 @@
+/*css cho phần banner*/
+.banner{
+	background-color: #ddd;
+	text-align: center;
+	padding: 30px;
+}
+.banner h1{
+	font-size: 50px;
+}
+.banner p{
+	font-size: 25px;
+}
+/*--------*/
+/*css cho thanh navigation*/
+.navbar{
+	background-color: #111;
+	overflow: hidden;
+}
+/*--------*/
+/*css cho thẻ a traong navbar*/
+.navbar a{
+	padding: 14px 16px;
+	color: #f5f5f5;
+	text-align: center;
+	text-decoration: none;re
+	float: left;
+}
+/*css khi rê chuột vào thẻ a trong navbar*/
+.navbar a:hover{
+	background-color: #ddd;
+}
+/*css cho thẻ a đang active*/
+.navbar a.active{
+	background-color: #4caf50;
+}
+/*css cho phần nội dung */
+.main{
+	font-size: 15px;
+	font-family: "Arial", sans-serif;
+	margin-bottom: 2000px;	
+}
+/*css cho class sticky*/
+.sticky{
+	position: fixed;
+	top:0;
+	width:100%;
+}

@@ -1,0 +1,272 @@
+body{
+	background: #5A5A5A;
+	font: 12px Verdana, Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+ul{
+	list-style-type: none;
+}
+.wrapper{
+	margin:0 auto;
+	width:800px;
+}
+.banner{
+	height: 100px;
+	text-align: center;
+	line-height: 100px;
+	background: #3F9FF0;
+	color: #fff;
+}
+.content{
+	background: #fff;
+	min-height: 300px;
+}
+.content:after{
+	content: "";
+	display: block;
+	height: 0;
+	clear: both;
+}
+.footer{
+	background: #01142E;
+	text-align: center;
+	height: 30px;
+	line-height: 30px;
+	color:#fff;
+}
+.left{
+	float: left;
+	background: #fff;
+	width: 200px;
+	position: relative;
+	top:-20px;
+}
+.left h2{
+	margin:0;
+	color: #ECFA11;
+	font-size: 15px;
+	padding-left: 10px;
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px dotted #ccc;
+	background: #3A72C0 url("../image/bgd-module-spotline.png") repeat -45px top;
+}
+.left-menu{
+	background: #3A72C0 url("../image/bgd-module-spotline.png") repeat -50px top;
+	
+}
+.left-menu ul{
+	
+	background: url("../image/mod_title_shadow.png") no-repeat ;
+	margin: 0;
+	padding-left: 0;
+	padding-bottom: 15px;
+}
+.left-menu li{
+	height: 30px;
+	line-height: 30px;
+	border-bottom: 1px dotted #ccc;
+	border-left: 5px solid #27657C;
+}
+.left-menu a{
+	text-decoration: none;
+	color:#fff;
+	margin-left: 15px;
+	font-weight: bold;
+}
+.left-menu a:hover{
+	color:#00266DFF;
+}
+.left-menu li:hover{
+	border-left-color: #BF4502;
+}
+.dang-nhap{
+	margin-top: 10px;
+	border:1px solid #ccc;
+	
+}
+.dang-nhap form{
+	padding: 10px 12px ;
+	background: #fff url("../image/mod_title_shadow.png") no-repeat ;
+}
+.dang-nhap input[type=text]{
+	height: 25px;
+	line-height: 25px;
+	margin:10px 0;
+}
+.dang-nhap button{
+	padding:5px 10px;
+	background: #3A72C0;
+	color:#fff;
+}
+.dang-nhap button:hover{
+	background: #F86210;
+}
+.right{
+	float: left;
+	margin: 0;
+	padding:0;
+}
+.navbar{
+	height: 30px;
+	line-height: 30px;
+	background: #EE7318;
+	width: 600px;
+}
+.navbar ul{
+	margin: 0px;
+	padding: 0;
+}
+.navbar ul li{
+	float: left;	
+	position: relative;
+	width: 100px;
+
+}
+.navbar li:hover{
+	background: #286DA9;
+	transition: 0.5s;
+}
+.navbar ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+	display: block;
+	text-align: center;
+	transition: 0.5s;
+
+}
+.navbar li .submenu{
+	display: none;
+	position: absolute;
+	overflow: hidden;
+	z-index: 99;
+}
+.navbar ul li:hover .submenu{
+	display: block;
+	transition: 0.5s;
+}
+.submenu li{
+	background:  #EE7318;
+	border-top: 1px solid #ccc;
+}
+
+.item{
+	width: 580px;
+	margin:10px;
+	border-bottom: 1px dotted #ccc;
+	padding-bottom: 12px;
+}
+.item:after{
+	content: "";
+	display: table;
+	clear: both;
+
+}
+.item h2{
+	color:#054baa;
+	font-size: 14px;
+	font-weight: bold;
+}
+.item img{
+	width: 150px;
+	height: auto;
+	border:1px solid #ccc;
+	padding: 5px;
+	float: left;
+}
+.item p{
+	float: left;
+	width: 405px;
+	margin-left: 10px;
+	text-align: justify-all;
+	line-height: 20px;
+}
+.item .item-docthem{
+	background: #3A72C0;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	padding: 5px 10px;
+	position: relative;
+	right: -330px;
+	font-weight:bold;
+}
+.item .item-docthem:hover{
+	border:1px solid red;
+	color:red;
+	background: #FEA0B6;
+}
+.quangcao{
+	text-align: center;
+}
+.quangcao img{
+	width: 130px;
+	height: auto;
+	margin:15px 0;
+	transition: 0.5s ease;
+}
+
+.quangcao img:hover{
+	opacity: 0.5;
+}
+.item-tinlienquan a{
+	float: left;
+	display: block;
+	text-decoration: none;
+	margin-left: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.item-tinlienquan img{
+	width: 100px;
+	height: auto;
+}
+.item-tinlienquan p{
+	float: left;
+}
+.product{
+	border:1px solid #ccc;
+	width: 580px;
+	margin-left: 10px;
+}
+.product:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+.product h2{
+	height: 30px;
+	background: #BABABA;
+	line-height: 30px;
+	font-size: 16px;
+	color:#1050E4FF;
+	border-bottom-right-radius:10px; 
+	border-bottom-left-radius: 10px;
+	padding-left: 15px;
+	margin-top: 0;
+}
+.product-item{
+	text-align: center;
+	width: 161px;
+	float: left;
+	border:1px solid #1368B8FF;
+	margin:10px;
+	padding:5px;
+}
+
+.product-item img{
+	cursor:pointer;
+}
+.product-item img:hover{
+	box-shadow: 0px 0px 4px 2px #AD0093D2 ;
+}
+.gia{
+	text-decoration: none;
+	color:red;
+	font-size: 14px;
+	font-weight: bold;
+}
